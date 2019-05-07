@@ -1,10 +1,13 @@
 <template>
 <div>
-    <ul id="example-1">
+      <div class="container">
+
+    <ul>
   <li v-for="tutor in tutors" v-bind:key="tutor">
     {{ tutor.tutor}}
   </li>
 </ul>
+</div>
 </div>
 </template>
 

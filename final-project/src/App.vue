@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <img src="https://rocklintutoring.com/wp-content/themes/ajusta/img/headerlogo.jpg">
+    <img src="https://rocklintutoring.com/wp-content/themes/ajusta/img/headerlogo.jpg" /> 
+    <br />
+    <br />
     <router-view/>
   </div>
 </template>
